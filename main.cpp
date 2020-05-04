@@ -123,9 +123,9 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "A Game of Life");
     sf::Texture texture;
     texture.create(WIDTH, HEIGHT);
-    texture.update(pixels);
     sf::Sprite sprite;
     sprite.setTexture(texture);
+    redrawWindow(window, sprite, texture, pixels);
     startEmulation(window, sprite, texture, pixels);
     return EXIT_SUCCESS;
 }
