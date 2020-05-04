@@ -1,5 +1,5 @@
 # A Game of Life
-This is a simple educational project that represents the implementation of the Conway's “Game of Life” in C++ using SFML as a graphics library.
+This is a simple educational project that represents the implementation of the Conway's “Game of Life” in C++ using SFML as a graphics library. In memory of John Horton Conway.
 
 ## Installation
 Перед выполнением тех или иных шагов установки рекомендуется убедиться в их необходимости - так в Windows Chocolate нужен для установки VS Build Tools, Python3 и CMake. Если перечисленные компоненты уже установлены - то необходимости в их установке (как и в установке Chocolate) нет.
