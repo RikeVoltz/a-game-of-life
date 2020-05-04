@@ -1,0 +1,8 @@
+cmake-build-*/
+.idea/
+.clang-format
+conan*info.*
+conan.lock
+graph_info.json
+build/
+life_game
