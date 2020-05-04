@@ -4,9 +4,10 @@ This is a simple educational project that represents the implementation of the C
 ## Installation
 1. (Windows only) Install [choco](https://chocolatey.org/docs/installation)  
 2. (Windows) `choco install -y python3 cmake` | (Linux) `sudo apt install -y python3 cmake`  
-3. `pip install conan`  
-4. `make install`  
-5. `./life_game`
+3. `pip install conan`
+4. `conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan`
+5. `make install`  
+6. `./life_game`
 
 ## Usage  
 - `LMouse` - to put alive cell
