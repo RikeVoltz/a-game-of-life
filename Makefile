@@ -9,7 +9,7 @@ clean-windows:
 all-linux:
 	conan install . --build=missing && make build-linux
 build-linux:
-	mkdir build && cd build && cmake .. && make && cd ..
+	mkdir build && cd build && cmake .. && make && make install && cd ..
 install-linux:
 	make all-linux && make clean-linux
 clean-linux:
